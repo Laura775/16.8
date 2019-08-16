@@ -1,8 +1,10 @@
-a=[1, 2, 4, 5]
-def myfunc(n):
+def mectver(n):
     b=1
-    for i in a:
-        if i>3:
-            b=b*i
+    whil n!=0:
+        a=n%10
+        n=int(n/10)
+        if a>3:
+            
+            b=b*a
     print(b)
-myfunc(a)
+mectver(244555121)
