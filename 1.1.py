@@ -1,8 +1,9 @@
-a=[7, 11, 4, 5, 1, 7]
 def myfunc(n):
     b=0
-    for i in n:
+    while n !=0:
+        a=n%10
+        n=int(n/10)
         if i%2==1:
-            b=b+i
+            b=b+1
     print(b)
-myfunc(a)
+myfunc(11111154646544)
