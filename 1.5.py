@@ -1,9 +1,10 @@
-n=[10, 7, 14]
-def myfunc(n):
+def mec5(n):
     b=0
-    for i in n:
-        if i>5:
-            b=b+i
+    while n!=0:
+        a=n%10
+        n=int(n/10)
+        if a>5:
+            b=b+a
     print(b)
 
-myfunc(n)
+mec5(1242767)
