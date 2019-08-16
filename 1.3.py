@@ -1,8 +1,10 @@
-a=[1, 5, 1, 8, 1, 1, 5]
-def myfunc(n):
+
+def tver1(n):
     b=0
-    for i in a:
-        if i==1:
-            b=b+i
+    while n!=0:
+        a=n%10
+        n=int(n/10)
+        if a==1:
+            b=b+a
     print(b)
-myfunc(a)
+tver1(a)
